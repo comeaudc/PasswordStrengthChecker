@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import PasswordStrengthChecker from './components/PasswordStrengthChecker';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -13,3 +11,5 @@ function App() {
 }
 
 export default App;
+
+// Within a react app create a component
